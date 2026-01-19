@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>jiashuoz.com</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body class="bg-background text-text selection:bg-primary selection:text-white">
+
+  <!-- Navigation -->
+  <nav class="fixed top-0 left-0 w-full z-50 bg-background/80 backdrop-blur-md border-b border-gray-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <div class="text-xl font-display font-bold tracking-tighter">jiashuoz</div>
+        <div class="hidden md:flex space-x-8 text-sm font-medium text-gray-600">
+          <a href="#work" class="hover:text-primary transition-colors">Work</a>
+          <a href="#about" class="hover:text-primary transition-colors">Philosophy</a>
+          <a href="#contact" class="hover:text-primary transition-colors">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main class="pt-24 pb-16">
+
+    <!-- Hero Section -->
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-32">
+      <div class="max-w-3xl animate-in fade-in slide-in-from-bottom-8 duration-1000">
+        <h1 class="text-5xl md:text-7xl font-display font-bold mb-6 leading-tight">
+          Crafting digital <br />
+          <span class="text-gray-400">experiences</span> with purpose.
+        </h1>
+        <p class="text-xl md:text-2xl text-gray-600 max-w-2xl font-light">
+          I'm Jiashuo, a developer and designer focusing on sleek, minimalist, and user-centric web applications.
+        </p>
+      </div>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+      <div class="flex justify-between items-end mb-12">
+        <h2 class="text-3xl font-display font-bold">Selected Work</h2>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <!-- Project Card 1 -->
+        <div class="group relative aspect-[4/3] bg-gray-100 rounded-2xl overflow-hidden cursor-pointer">
+          <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=2426"
+            alt="Project 1" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+          <div
+            class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-8">
+            <div
+              class="text-white text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
+              <h3 class="text-2xl font-display font-bold mb-2">Mnexa AI</h3>
+              <p class="text-gray-200">Landing Page & Design System</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Card 2 -->
+        <div class="group relative aspect-[4/3] bg-gray-100 rounded-2xl overflow-hidden cursor-pointer">
+          <img src="https://images.unsplash.com/photo-1555421689-491a97ff2040?auto=format&fit=crop&q=80&w=2370"
+            alt="Project 2" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+          <div
+            class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-8">
+            <div
+              class="text-white text-center transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
+              <h3 class="text-2xl font-display font-bold mb-2">Finance Dashboard</h3>
+              <p class="text-gray-200">UI/UX & Frontend Dev</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 bg-gray-50 rounded-3xl my-20">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+        <div>
+          <h2 class="text-3xl font-display font-bold mb-6">Philosophy</h2>
+          <div class="space-y-4 text-lg text-gray-600 font-light">
+            <p>
+              I believe that good design is invisible. It should empower the user without drawing attention to itself.
+            </p>
+            <p>
+              My approach combines technical precision with artistic sensibility, ensuring that every pixel serves a
+              purpose and every interaction feels natural.
+            </p>
+          </div>
+        </div>
+        <div class="space-y-8">
+          <div>
+            <h4 class="font-bold mb-2">Services</h4>
+            <p class="text-gray-600">Web Development, UI/UX Design, System Architecture</p>
+          </div>
+          <div>
+            <h4 class="font-bold mb-2">Tech Stack</h4>
+            <p class="text-gray-600">TypeScript, React, Tailwind, Next.js, Python</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
+      <h2 class="text-5xl md:text-6xl font-display font-bold mb-8">Let's build something <br> amazing together.</h2>
+      <a href="mailto:hello@jiashuoz.com"
+        class="inline-block bg-primary text-white px-8 py-4 rounded-full text-lg font-medium hover:bg-black transition-colors">
+        Get in Touch
+      </a>
+    </section>
+
+  </main>
+
+  <footer class="border-t border-gray-200 py-12">
+    <div
+      class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
+      <p>&copy; 2026 jiashuoz.com</p>
+      <div class="flex space-x-6 mt-4 md:mt-0">
+        <a href="#" class="hover:text-primary">Twitter</a>
+        <a href="#" class="hover:text-primary">GitHub</a>
+        <a href="#" class="hover:text-primary">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
